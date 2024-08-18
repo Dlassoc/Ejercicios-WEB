@@ -1,25 +1,29 @@
-.box {
-    background-color: #dd1c1a;
-    width: 200px;
-    margin: 20px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
     padding: 20px;
 }
 
-body {
-    font-family: Arial;
-    line-height: 22px;
+.menu li a:hover {
+    background: #ef8354;
 }
 
-h1, p, div {
-    background: #ccc;
-    padding: 10px;
-    width: 500px;
-}
-
-a {
-    background: #000;
-    color: #fff;
+.menu li {
     display: inline-block;
-    padding: 15px;
-    width: 500px;
+    text-align: center;
 }
