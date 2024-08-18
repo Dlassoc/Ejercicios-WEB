@@ -1,25 +1,21 @@
-.box {
-    background-color: #dd1c1a;
-    width: 200px;
-    margin: 20px;
-    padding: 20px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: Arial;
-    line-height: 22px;
+    background: #f2f2f2;
 }
 
-h1, p, div {
-    background: #ccc;
-    padding: 10px;
-    width: 500px;
+.box {
+    width: 200px;
+    height: 200px;
+    background: #4e73df;
+    margin: 20px;
+    float: left;
 }
 
-a {
-    background: #000;
-    color: #fff;
-    display: inline-block;
-    padding: 15px;
-    width: 500px;
+.position {
+    background: #086788;
+    position: relative;
 }
